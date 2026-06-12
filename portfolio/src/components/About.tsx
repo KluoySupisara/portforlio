@@ -2,7 +2,6 @@ export default function About() {
   return (
     <section id="about" className="py-24 px-6">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16 items-center">
-        {/* Avatar placeholder */}
         <div className="flex justify-center md:justify-start">
           <div className="relative w-64 h-64 rounded-2xl overflow-hidden border border-white/10 bg-gradient-to-br from-violet-600/20 to-cyan-600/20 flex items-center justify-center">
             <span className="text-8xl">👩‍💻</span>
@@ -10,35 +9,53 @@ export default function About() {
           </div>
         </div>
 
-        {/* Text */}
         <div>
           <p className="text-violet-400 text-sm font-medium uppercase tracking-widest mb-3">
             About me
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight">
-            Building things for the web
+            Full-Stack Software Engineer
           </h2>
           <div className="space-y-4 text-slate-400 leading-relaxed">
             <p>
-              I&apos;m a Software Engineer with experience building full-stack
-              web applications. I enjoy working across the entire stack — from
-              designing responsive UIs to building robust APIs and databases.
+              I&apos;m a Full-Stack Software Engineer currently completing my Master of
+              Information Technology at RMIT University, Melbourne. I have 1.5+ years of
+              professional experience as a Software Engineer at Gosoft, Bangkok, where I
+              built POS systems using Angular, Node.js, C#.NET, TypeScript, and AWS.
             </p>
             <p>
-              I have hands-on experience with React, Next.js, TypeScript, and
-              Node.js, and I&apos;m comfortable working with both SQL and NoSQL
-              databases. I care deeply about code quality, performance, and
-              accessibility.
+              My academic projects at RMIT include a real-time thermal printer integration
+              for ClickPOS (C#, ASP.NET Core, SignalR, WebUSB), a full-stack vendor hire
+              platform (Next.js, GraphQL, TypeORM), and an iOS car park booking app.
             </p>
             <p>
-              Currently based in Australia and actively looking for opportunities
-              where I can contribute, grow, and continue building meaningful software.
+              I&apos;m actively looking for full-time Software Engineer roles in Australia
+              where I can contribute across the full stack and grow with a great team.
             </p>
+          </div>
+
+          <div className="mt-6 grid grid-cols-2 gap-3 text-sm">
+            <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-3">
+              <p className="text-slate-500 text-xs mb-1">Degree</p>
+              <p className="text-white font-medium">Master of IT — RMIT</p>
+            </div>
+            <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-3">
+              <p className="text-slate-500 text-xs mb-1">Location</p>
+              <p className="text-white font-medium">Melbourne, Australia</p>
+            </div>
+            <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-3">
+              <p className="text-slate-500 text-xs mb-1">Experience</p>
+              <p className="text-white font-medium">1.5+ yrs at Gosoft</p>
+            </div>
+            <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-3">
+              <p className="text-slate-500 text-xs mb-1">English</p>
+              <p className="text-white font-medium">IELTS Band 6.5</p>
+            </div>
           </div>
 
           <div className="mt-8 flex gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/KluoySupisara"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-slate-400 hover:text-white border border-white/10 hover:border-white/30 px-4 py-2 rounded-full transition-colors"
@@ -49,7 +66,7 @@ export default function About() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/supisara-meemana"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-slate-400 hover:text-white border border-white/10 hover:border-white/30 px-4 py-2 rounded-full transition-colors"

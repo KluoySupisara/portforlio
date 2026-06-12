@@ -1,29 +1,56 @@
 const projects = [
   {
-    title: "ClickPOS Browser Printing",
+    title: "ClickPOS Thermal Printer Integration",
     description:
-      "A cross-platform browser printing solution for Point-of-Sale systems. Supports USB, Bluetooth, and network printers with an Electron-based local service and REST API.",
-    tech: ["Electron", "Node.js", "REST API", "USB/BT Printing"],
+      "Capstone project for ClickPOS Pty Ltd. Built a real-time thermal printer integration for a web-based POS system used by Australian retail businesses. Includes a Windows host service, SignalR bidirectional communication, and WebUSB for driver-free browser-to-USB printing.",
+    tech: ["C#", "ASP.NET Core", "SignalR", "WebUSB", "Windows Service"],
     github: "https://github.com/P000381SE-ClickPOS/clickpos-browser-printing",
     live: null,
     featured: true,
   },
   {
-    title: "Next.js Dashboard",
+    title: "Vendor Hire Website",
     description:
-      "A full-featured financial dashboard built with Next.js App Router. Features authentication with NextAuth v5, server actions, PostgreSQL, and real-time data visualisation.",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "NextAuth", "Tailwind CSS"],
+      "Full-stack rental platform where vendors list equipment and customers browse and book rentals. Built with Next.js SSR, GraphQL for flexible data fetching, TypeORM for database management on AWS, and full authentication with role-based access.",
+    tech: ["Next.js", "React", "TypeScript", "GraphQL", "TypeORM", "MSSQL"],
     github: null,
     live: null,
     featured: true,
   },
   {
-    title: "Portfolio Website",
+    title: "Mobile Banking Web Application",
     description:
-      "This portfolio — built from scratch with Next.js 14 App Router, Tailwind CSS, and TypeScript. Fully responsive with dark theme and smooth animations.",
-    tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+      "Secure web-based banking system with user authentication and role-based authorization. Features Deposit, Withdraw, Transfer, and Bill Payment with full transaction history, export functionality, and Azure SQL for data management.",
+    tech: ["C#", ".NET Framework", "Azure SQL", "MVC"],
     github: null,
-    live: "#",
+    live: null,
+    featured: false,
+  },
+  {
+    title: "iOS Car Park Booking App",
+    description:
+      "iOS mobile app for car park booking across Melbourne CBD. Integrated real-world REST APIs for live capacity data. Includes search, date/time-based booking selection, and booking history with responsive MVC UI/UX.",
+    tech: ["Swift", "iOS", "MVC", "REST APIs"],
+    github: null,
+    live: null,
+    featured: false,
+  },
+  {
+    title: "AWS Cloud Computing",
+    description:
+      "Serverless event-driven architecture using AWS Lambda (class-based) triggered by S3 uploads and CloudWatch rules. Applied EC2 for VM provisioning and ECS for container orchestration to deploy and scale applications.",
+    tech: ["AWS Lambda", "S3", "EC2", "ECS", "CloudWatch"],
+    github: null,
+    live: null,
+    featured: false,
+  },
+  {
+    title: "Software Testing & Automation",
+    description:
+      "Designed and executed manual and automated test cases using SpiraTest for test case management and defect tracking. Implemented automated regression testing with Selenium WebDriver.",
+    tech: ["Selenium WebDriver", "SpiraTest", "Test Automation"],
+    github: null,
+    live: null,
     featured: false,
   },
 ];

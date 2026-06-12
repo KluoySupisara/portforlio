@@ -2,7 +2,6 @@ export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center px-6 pt-16">
       <div className="max-w-3xl mx-auto text-center">
-        {/* Availability badge */}
         <div className="animate-fade-in inline-flex items-center gap-2 bg-green-500/10 border border-green-500/20 text-green-400 text-sm px-4 py-1.5 rounded-full mb-8">
           <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
           Available for work in Australia
@@ -16,12 +15,13 @@ export default function Hero() {
         </h1>
 
         <p className="animate-fade-in-up delay-200 text-xl sm:text-2xl text-slate-400 font-light mb-4">
-          Software Engineer
+          Full-Stack Software Engineer
         </p>
 
         <p className="animate-fade-in-up delay-300 text-slate-500 max-w-xl mx-auto leading-relaxed mb-12">
-          I build fast, accessible web applications with modern technologies.
-          Passionate about clean code, great UX, and solving real-world problems.
+          Master of IT student at RMIT Melbourne. I build full-stack web applications
+          using React, Next.js, Node.js, C#, and AWS. Previously a Software Engineer
+          at Gosoft, Bangkok.
         </p>
 
         <div className="animate-fade-in-up delay-400 flex flex-col sm:flex-row gap-4 justify-center">
@@ -32,28 +32,21 @@ export default function Hero() {
             View my work
           </a>
           <a
-            href="#contact"
-            className="px-8 py-3 border border-white/10 hover:border-white/30 text-slate-300 hover:text-white rounded-full font-medium transition-colors"
+            href="/portforlio/Supisara_Meemana_Resume.pdf"
+            download
+            className="px-8 py-3 border border-white/10 hover:border-violet-400/50 text-slate-300 hover:text-white rounded-full font-medium transition-colors flex items-center justify-center gap-2"
           >
-            Get in touch
+            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            Download Resume
           </a>
         </div>
 
-        {/* Scroll hint */}
         <div className="animate-fade-in delay-500 mt-20 flex justify-center">
           <a href="#about" aria-label="Scroll down">
-            <svg
-              className="w-6 h-6 text-slate-600 animate-bounce"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={1.5}
-                d="M19 9l-7 7-7-7"
-              />
+            <svg className="w-6 h-6 text-slate-600 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
             </svg>
           </a>
         </div>

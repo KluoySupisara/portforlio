@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 px-6 bg-white/[0.02]">
+    <section id="contact" className="py-24 px-6">
       <div className="max-w-2xl mx-auto text-center">
         <p className="text-violet-400 text-sm font-medium uppercase tracking-widest mb-3">
           Get in touch
@@ -10,23 +10,33 @@ export default function Contact() {
         </h2>
         <p className="text-slate-400 leading-relaxed mb-10">
           I&apos;m currently open to full-time Software Engineer roles in Australia.
-          Whether you have a question, an opportunity, or just want to say hi —
-          my inbox is always open.
+          Whether you have an opportunity or just want to say hi — feel free to reach out.
         </p>
 
-        <a
-          href="mailto:supisara.meemana@gmail.com"
-          className="inline-flex items-center gap-2 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-full font-medium transition-colors text-lg"
-        >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-          </svg>
-          Say Hello
-        </a>
-
-        <div className="mt-8 flex justify-center gap-6">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mb-10">
           <a
-            href="https://github.com"
+            href="mailto:supisara.meemana@gmail.com"
+            className="inline-flex items-center justify-center gap-2 bg-violet-600 hover:bg-violet-500 text-white px-8 py-4 rounded-full font-medium transition-colors"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+            </svg>
+            supisara.meemana@gmail.com
+          </a>
+          <a
+            href="tel:+61401466545"
+            className="inline-flex items-center justify-center gap-2 border border-white/10 hover:border-violet-400/50 text-slate-300 hover:text-white px-8 py-4 rounded-full font-medium transition-colors"
+          >
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+            </svg>
+            +61 (0) 40 146 6545
+          </a>
+        </div>
+
+        <div className="flex justify-center gap-6">
+          <a
+            href="https://github.com/KluoySupisara"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-500 hover:text-white transition-colors"
@@ -37,7 +47,7 @@ export default function Contact() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/supisara-meemana"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-500 hover:text-white transition-colors"
