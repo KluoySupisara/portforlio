@@ -10,7 +10,7 @@ export default function Hero() {
         <h1 className="animate-fade-in-up delay-100 text-5xl sm:text-7xl font-bold text-white leading-tight tracking-tight mb-6">
           Hi, I&apos;m{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-cyan-400">
-            Supisara
+            Supisara (Khloe)
           </span>
         </h1>
 
