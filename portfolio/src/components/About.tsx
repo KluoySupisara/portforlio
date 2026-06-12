@@ -1,11 +1,19 @@
+import Image from "next/image";
+
 export default function About() {
   return (
     <section id="about" className="py-24 px-6">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div className="flex justify-center md:justify-start">
-          <div className="relative w-64 h-64 rounded-2xl overflow-hidden border border-white/10 bg-gradient-to-br from-violet-600/20 to-cyan-600/20 flex items-center justify-center">
-            <span className="text-8xl">👩‍💻</span>
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/60 to-transparent" />
+          <div className="relative w-64 h-64 rounded-2xl overflow-hidden border border-white/10">
+            <Image
+              src="/profile.jpg"
+              alt="Supisara Meemana"
+              fill
+              className="object-cover"
+              priority
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0f]/30 to-transparent" />
           </div>
         </div>
 
@@ -42,6 +50,7 @@ export default function About() {
             <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-3">
               <p className="text-slate-500 text-xs mb-1">Location</p>
               <p className="text-white font-medium">Melbourne, Australia</p>
+              <p className="text-white font-medium">Bangkok, Thailand</p>
             </div>
             <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-3">
               <p className="text-slate-500 text-xs mb-1">Experience</p>
@@ -66,7 +75,7 @@ export default function About() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/supisara-meemana"
+              href="https://www.linkedin.com/in/supisaramee/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-slate-400 hover:text-white border border-white/10 hover:border-white/30 px-4 py-2 rounded-full transition-colors"

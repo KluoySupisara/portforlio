@@ -47,7 +47,7 @@ export default function Contact() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/in/supisara-meemana"
+            href="https://www.linkedin.com/in/supisaramee/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-500 hover:text-white transition-colors"

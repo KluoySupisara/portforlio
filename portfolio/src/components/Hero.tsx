@@ -32,7 +32,7 @@ export default function Hero() {
             View my work
           </a>
           <a
-            href="/portforlio/Supisara_Meemana_Resume.pdf"
+            href="/Supisara_Meemana_Resume.pdf"
             download
             className="px-8 py-3 border border-white/10 hover:border-violet-400/50 text-slate-300 hover:text-white rounded-full font-medium transition-colors flex items-center justify-center gap-2"
           >
