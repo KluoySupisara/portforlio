@@ -4,13 +4,13 @@ export default function Hero() {
       <div className="max-w-3xl mx-auto text-center">
         <div className="animate-fade-in inline-flex items-center gap-2 bg-green-500/10 border border-green-500/20 text-green-400 text-sm px-4 py-1.5 rounded-full mb-8">
           <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-          Available for work in Australia
+          Available for work in Thailand
         </div>
 
         <h1 className="animate-fade-in-up delay-100 text-5xl sm:text-7xl font-bold text-white leading-tight tracking-tight mb-6">
           Hi, I&apos;m{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-cyan-400">
-            Supisara (Khloe)
+            Supisara (Kluoy)
           </span>
         </h1>
 
@@ -32,7 +32,7 @@ export default function Hero() {
             View my work
           </a>
           <a
-            href="/Supisara_Meemana_Resume.pdf"
+            href="/Supisara_ResumeTH.pdf"
             download
             className="px-8 py-3 border border-white/10 hover:border-violet-400/50 text-slate-300 hover:text-white rounded-full font-medium transition-colors flex items-center justify-center gap-2"
           >
