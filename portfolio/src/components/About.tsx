@@ -22,7 +22,7 @@ export default function About() {
             About me
           </p>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6 leading-tight">
-            Full-Stack Software Engineer
+            Software Engineer
           </h2>
           <div className="space-y-4 text-slate-400 leading-relaxed">
             <p>
@@ -49,7 +49,6 @@ export default function About() {
             </div>
             <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-3">
               <p className="text-slate-500 text-xs mb-1">Location</p>
-              <p className="text-white font-medium">Melbourne, Australia</p>
               <p className="text-white font-medium">Bangkok, Thailand</p>
             </div>
             <div className="bg-white/[0.03] border border-white/[0.06] rounded-xl p-3">
